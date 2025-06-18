@@ -1,0 +1,116 @@
+/* Variáveis de Cores */
+:root {
+    --cor-fundo: #121212;
+    --cor-fundo-escuro: #0a0a0a;
+    --cor-roxo-claro: #7209b7;
+    --cor-roxo-escuro: #3a0ca3;
+    --cor-amarelo: #fca311;
+    --cor-amarelo-escuro: #d1a01f;
+    --cor-amarelo-hover: #ffba08;
+    --cor-texto-claro: #f1f1f1;
+    --cor-texto-cinza: #cccccc;
+    --cor-footer: #0d0d0d;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-claro);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-text {
+    font-weight: bold;
+    color: var(--cor-amarelo-escuro) !important;
+}
+
+
+.navbar {
+    background-color: var(--cor-fundo-escuro);
+}
+
+.navbar-nav .nav-link {
+    color: #222;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--cor-amarelo-escuro);
+}
+
+.navbar-toggler {
+    border-color: var(--cor-amarelo-escuro);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(209,160,31, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.hero {
+    background: linear-gradient(135deg, var(--cor-roxo-escuro), var(--cor-roxo-claro));
+    padding: 100px 0;
+    color: #fff;
+    
+}
+
+.hero h1 {
+    font-weight: bold;
+}
+
+.hero .btn {
+    background-color: var(--cor-amarelo);
+    color: #000;
+    border: none;
+}
+
+.hero .btn:hover {
+    background-color: var(--cor-amarelo-hover);
+}
+
+
+.section-title {
+    color: var(--cor-amarelo-escuro);
+    margin-bottom: 30px;
+}
+
+
+#servicos i {
+    color: var(--cor-amarelo);
+}
+
+#servicos h4 {
+    color: #ffffff;
+}
+
+#servicos p {
+    color: var(--cor-texto-cinza);
+}
+
+
+#sobre {
+    background-color: #1a1a1a;
+}
+
+#sobre p {
+    color: #000000;
+}
+
+
+#contato {
+    background-color: var(--cor-fundo-escuro);
+}
+
+#contato a.btn {
+    background-color: var(--cor-amarelo);
+    color: #000;
+}
+
+#contato a.btn:hover {
+    background-color: var(--cor-amarelo-hover);
+}
+
+
+footer {
+    background-color: var(--cor-footer);
+    color: #999999;
+}
